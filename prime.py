@@ -1,11 +1,11 @@
 def prime(n):
     for i in range(2, n // 2 + 1):
         if n % i == 0:
-            return "composite"
-    return "Prime"
+            return False
+    return True
 
-n = int(input())
+n = int(input("Please enter a number: "))
 if n >= 2:
-    print(prime(n))
+    print(f"{n} is a {'Prime' if prime(n) else 'Composite'} number")
 else:
     print("number less than 2")
