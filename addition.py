@@ -6,5 +6,4 @@ def addition(a, b):
 a = int(input())
 b = int(input())
 
-
 print(addition(a + b))
