@@ -5,4 +5,7 @@ def prime(n):
     return "Prime"
 
 n = int(input())
-print(prime(n))
+if n >= 2:
+    print(prime(n))
+else:
+    print("number less than 2")
