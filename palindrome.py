@@ -5,5 +5,5 @@ def palindrome(s):
             return "Not a Palindrome"
     return "Palindrome"
 
-s = input()
-print(palindrome(s))
+s = input("Enter a string: ")
+print(s + " is " + palindrome(s))
